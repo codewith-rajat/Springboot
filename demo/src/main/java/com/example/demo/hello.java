@@ -13,4 +13,8 @@ public class hello {
     public String name(){
         return "Hello Rajat!!";
     }
+    @GetMapping("/college")
+    public String college(){
+        return "GLA University";
+    }
 }
